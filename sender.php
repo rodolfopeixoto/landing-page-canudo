@@ -26,12 +26,12 @@ $message = $_POST['mssg'];
 if (isset($name) && isset($mail) && isset($message)) {
 
 
-	$mailSub = '[Contact] [' . $siteName . '] '.$subject;
+	$mailSub = '[Contato] [' . $siteName . '] '.$subject;
 
-	$body = 'Sender Name: ' . $name . "\n\n";
-	$body .= 'Sender Mail: ' . $mail . "\n\n";
-	$body .= 'Message Subject: ' . $subject . "\n\n";
-	$body .= 'Message: ' . $message;
+	$body = 'Nome: ' . $name . "\n\n";
+	$body .= 'Email: ' . $mail . "\n\n";
+	$body .= 'Assunto: ' . $subject . "\n\n";
+	$body .= 'Mensagem: ' . $message;
 
 	$header = 'From: ' . $mail . "\r\n";
 	$header .= 'Reply-To:  ' . $mail . "\r\n";
