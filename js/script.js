@@ -110,7 +110,7 @@ $(function () {
     ////// mailchimp //////
     $(".subscribe-form").ajaxChimp({
         callback: mcCallback,
-        url: "" // Replace your mailchimp post url inside double quote "". http://cantothemes.us8.list-manage2.com/subscribe/post?u=37a0cb83e98c8633253ad0acd&id=03d8ef0996
+        url: "http://prionglobal.us16.list-manage.com/subscribe/post?u=9e6c47881a46ef4015b957e9d&amp;id=e307071bcb" // Replace your mailchimp post url inside double quote "". http://cantothemes.us8.list-manage2.com/subscribe/post?u=37a0cb83e98c8633253ad0acd&id=03d8ef0996
     });
 
     function mcCallback (res) {
